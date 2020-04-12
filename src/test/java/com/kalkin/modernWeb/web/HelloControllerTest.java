@@ -1,4 +1,4 @@
-package com.kalkin.mordenWeb.web;
+package com.kalkin.modernWeb.web;
 
 
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.kalkin.mordenWeb.web.dto;
+package com.kalkin.modernWeb.web.dto;
 
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;

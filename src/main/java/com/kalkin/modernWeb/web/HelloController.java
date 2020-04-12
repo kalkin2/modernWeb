@@ -1,7 +1,7 @@
-package com.kalkin.mordenWeb.web;
+package com.kalkin.modernWeb.web;
 
 
-import com.kalkin.mordenWeb.web.dto.HelloResponseDto;
+import com.kalkin.modernWeb.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

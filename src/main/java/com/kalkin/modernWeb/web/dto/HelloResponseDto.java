@@ -1,4 +1,4 @@
-package com.kalkin.mordenWeb.web.dto;
+package com.kalkin.modernWeb.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
