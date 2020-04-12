@@ -1,4 +1,4 @@
-package com.kalkin.modernWeb.web.domain.posts;
+package com.kalkin.modernWeb.domain.posts;
 
 
 import lombok.Builder;
