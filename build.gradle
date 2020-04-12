@@ -21,13 +21,15 @@ apply plugin :'io.spring.dependency-management'
 
 group 'com.kalkin'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
+//gradle 5.0이상 세팅 lombok 설정 수정 필요
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
