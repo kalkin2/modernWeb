@@ -2,7 +2,7 @@
 //1. add
 buildscript {
     ext {
-        springBootVersion = '2.1.7.RELEASE'
+        springBootVersion = '2.1.9.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -31,8 +31,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.2.6.RELEASE'
-
-    testCompile group: 'com.h2database', name: 'h2', version: '1.4.200'
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
