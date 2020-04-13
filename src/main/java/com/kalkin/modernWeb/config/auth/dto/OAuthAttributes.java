@@ -69,7 +69,8 @@ public class OAuthAttributes {
                 .name(name)
                 .email(email)
                 .picture(picture)
-                .role(Role.GUEST)
+                //.role(Role.GUEST)
+                .role(Role.USER)//USER 권한으로 생성
                 .build();
     }
 }
