@@ -10,7 +10,7 @@
 * FrontEnd  : mustache
 
 
-#application-oauth.properties
+##application-oauth.properties
 * 아래 파일을 추가
 
 spring.security.oauth2.client.registration.google.client-id=구글클라이언트ID
