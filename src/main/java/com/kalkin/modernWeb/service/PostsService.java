@@ -54,4 +54,18 @@ public class PostsService {
                 .collect(Collectors.toList());
 
     }
+
+
+    /**
+     * 글 삭제
+     * @param id
+     */
+    @Transactional
+    public void delete(Long id){
+        Posts post = postRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("해당 게시글이 없습니다."));
+
+        postRepository.delete(post);
+
+    }
 }
