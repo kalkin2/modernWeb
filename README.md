@@ -1,5 +1,6 @@
 #MODERN WEB PROJECT
-
+##Last update : 
+2020.04.13
 ##적용 기술
 * BackEnd : spring-boot 2.x , gradle 4.10, Jpa
 
