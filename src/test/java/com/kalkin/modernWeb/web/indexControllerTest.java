@@ -27,7 +27,7 @@ public class indexControllerTest {
         //when
         String body = restTemplate.getForObject("/",String.class);
         //then
-        Assertions.assertThat(body).contains("hello world!");
+        Assertions.assertThat(body).contains("Simple Board");
     }
 
 }
