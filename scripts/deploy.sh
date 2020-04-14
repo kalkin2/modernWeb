@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORY=/home/ec2-user/app/step1
+REPOSITORY=/home/ec2-user/app/step2
 PROJECT_NAME=modernWeb
 
 echo ">build 복사시작 "
