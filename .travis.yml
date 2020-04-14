@@ -36,4 +36,14 @@ deploy:
     local_dir: deploy
     wait-until-deployed: true
 
+  - provider: codedeploy
+    access_key_id: AKIAZQQM76XC4JN562G2
+    secret_access_key: 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
+    bucket: modern-web
+    key: modernWeb.zip
+    bundle_type: zip
+    application: modern-web
+    deployment_group: modern-web-group
+    region: ap-northeast-2
+    wait-until-deployed: true
 
