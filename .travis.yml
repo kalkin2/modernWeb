@@ -19,3 +19,19 @@ notifications:
   email:
     recipients:
       - kalkin2@naver.com
+
+before_deploy:
+  - zip -r modernWeb *
+  - mkdir -p deploy
+  - mv modernWeb.zip deploy/modernWeb.zip
+
+deploy:
+  - provider: s3
+    access_key_id: AKIAZQQM76XC4JN562G2
+    secret_access_key: 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
+    bucket: modernweb
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private
+    local_dir: deploy
+    wait-until-deployed: true
