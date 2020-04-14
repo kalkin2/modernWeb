@@ -29,7 +29,7 @@ deploy:
   - provider: s3
     access_key_id: AKIAZQQM76XC4JN562G2
     secret_access_key: 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
-    bucket: modernweb
+    bucket: modern-web
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
